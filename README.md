@@ -1,4 +1,4 @@
-# Web Holi Assignment
+# Full Stack Holi Assignment
 Mid Term Holi Assignment  
 <strong>Name:</strong> Ankit Rawat  
 <strong>Roll Number:</strong> 2012884  
