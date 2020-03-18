@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MaxMin</title>
+    <title>Min Max Task</title>
 </head>
 
 <body>
@@ -17,7 +17,34 @@
                 task[data[i]['userId'] - 1]++;
             }
         }
+        var min = task[0], max = task[0], pmin = 0, pmax = 0;
+        for (var i = 0; i < 10; ++i) {
+            if (task[i] > max) {
+                max = task[i];
+                pmax = i;
+            }
+            if (task[i] < min) {
+                min = task[i];
+                pmin = i;
+            }
+        }
+        /*Printing Task Array
+        for(var i = 0 ; i < 10 ; ++i)
+        {
+            console.log(task[i]);
+        }
+        */
+        console.log(pmin + 1);
+        console.log(pmax + 1);
 
+        /*Finding all IDs
+        for(var i = 0 ; i < data.length ; ++i)
+        {
+            if(data[i]['userId'] == pmax+1)
+                console.log(data[i]['id']);
+        }
+        */
     </script>
 </body>
+
 </html>
