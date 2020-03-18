@@ -1,10 +1,10 @@
-Name: Ankit Rawat
-Section: B (45)
-Roll No: 2012884
+<strong>Name: </strong>   Ankit Rawat  
+<strong>Section: </strong>   B (45)  
+<strong>Roll No: </strong>   2012884
 
 ----------------------------------------------------------------
 
-Problem: 1
+<strong>Problem: 51</strong>  
 Create a web application that takes student's enrolment number, name, age, course,
 branch, contact, and email from web portal using a PHP script and shows that on a
 web page. Extend the application to store the data entered through the web portal
@@ -19,14 +19,14 @@ should be taken to remove or cancel the record.
 
 ----------------------------------------------------------------
 
-Problem: 2
+<strong>Problem: 2</strong>  
 Visit - https://jsonplaceholder.typicode.com/todos and parse JSON data to find
 out the ID of all users those have completed minimum and maximum number of
 tasks.
 
 ----------------------------------------------------------------
 
-Problem: 3
+<strong>Problem: 3</strong>  
 Visit - https://jsonplaceholder.typicode.com/posts and do the following with
 JSON data -
 a. After running program user should be able to enter an input keyword of his
@@ -48,7 +48,7 @@ You should generate the output for all the users that are in JSON file.
 
 ----------------------------------------------------------------
 
-Problem: 4
+<strong>Problem: 4</strong>  
 This problem is taken from - Recruitment Test Part II for post of Software Engineer
 at Smarter Codes -
 Steps to perform in this problem :
@@ -83,7 +83,7 @@ B. This video will help you complete the assignment - Parse JSON File
 
 ----------------------------------------------------------------
 
-Problem: 5 
+<strong>Problem: 5</strong>  
 Guess The Number Game using JavaScript
 See Instructions for Guess The Number Game (use guess.html file as a framework 
 for the game and see the screenshots given below for reference.)
