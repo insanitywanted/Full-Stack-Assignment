@@ -4,7 +4,7 @@
 
 ----------------------------------------------------------------
 
-<strong>Problem: 51</strong>  
+<strong>Problem: 1</strong>  
 Create a web application that takes student's enrolment number, name, age, course,
 branch, contact, and email from web portal using a PHP script and shows that on a
 web page. Extend the application to store the data entered through the web portal
