@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Number Guessing Game</title>
+</head>
+
+<body>
+    <h1>Number guessing game</h1>
+
+    <p>We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you
+        if your guess was too high or too low.</p>
+
+    <div>
+        Enter a guess: <input type="number" id="guessField" class="guessField">
+        <input type="submit" value="Submit guess" class="guessSubmit">
+    </div>
+
+    <div>
+        <p class="lastResult"></p>
+        <p class="guesses"></p>
+    </div>
+
+    <script>
+        let randomNumber = 1 + Math.floor(Math.random() * 100);
+        console.log(randomNumber);
+        let guessCount = 1;
+        const guessSubmit = document.querySelector('.guessSubmit');
+        const lastResult = document.querySelector('.lastResult');
+        const guesses = document.querySelector('.guesses');
+
+        function checkGuess() {
+            let userValue = Number(guessField.value);
+            //console.log(userValue);
+            console.log(guessCount);
+
+            if (guessCount === 1) {
+                guesses.textContent = 'Previous guesses: ';
+            }
+            guesses.textContent = guesses.textContent + userValue + ' ';
+
+            if (userValue === randomNumber) {
+                lastResult.textContent = 'Congratulations! You got it right!';
+                lastResult.style.backgroundColor = 'green';
+            }
+            else if (guessCount === 10) {
+                lastResult.textContent = 'Game Over. Please try again.!';
+                guesses.textContent = '';
+            }
+            else {
+                lastResult.textContent = 'Wrong!';
+                lastResult.style.backgroundColor = 'red';
+            }
+            guessCount++;
+        }
+
+        guessSubmit.addEventListener('click', checkGuess);
+
+    </script>
+</body>
+
+</html>
