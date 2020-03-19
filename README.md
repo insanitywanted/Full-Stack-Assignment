@@ -24,6 +24,10 @@ Visit - https://jsonplaceholder.typicode.com/todos and parse JSON data to find
 out the ID of all users those have completed minimum and maximum number of
 tasks.
 
+<strong>Solution:</strong>  
+![Output](https://i.ibb.co/xX4NZpF/Tc-DAus-Js-Rmme-Om5-Dvk9mr-A.png)
+
+
 ----------------------------------------------------------------
 
 <strong>Problem: 3</strong>  
@@ -45,6 +49,9 @@ Explanation - First and second columns show the ID of user and post respectively
 where third column shows the number of times a keyword appeared in that
 particular user and post ID.
 You should generate the output for all the users that are in JSON file.
+
+<strong>Solution:</strong>  
+![Output](https://i.ibb.co/bBNGvWw/Screenshot-2.png)
 
 ----------------------------------------------------------------
 
@@ -80,6 +87,9 @@ contain these arrows to depict the indentation of each child.
 Note -
 A. Attached is the JSON file, named parse.json which you have to parse.
 B. This video will help you complete the assignment - Parse JSON File
+
+<strong>Solution:</strong>  
+![Output](https://i.ibb.co/dPF1gT8/Screenshot-4.png)
 
 ----------------------------------------------------------------
 
