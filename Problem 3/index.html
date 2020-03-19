@@ -11,7 +11,9 @@
 <body>
     <div class="div">
         <h1 class="heading">JSON Parser</h1>
-        <p class="info">Enter an input keyword</p>
+        <label for="input-string">Enter an input keyword</label><br>
+        <input type="text" class="form-control value" type="text" id="value">
+        <br>
         <button type="button" class="btn btn-light btn-reset" id="reset" onclick="location.reload()">Reset</button>
         <button type="button" class="btn btn-primary btn-start" onclick="parse()">Start Parsing</button><br><br>
         <h6 class="parsed-data">Parsed Data</h6>
