@@ -117,3 +117,6 @@ their previous guesses.
 3. After that display control allowing the player to restart the game.
 9. Once the game restarts, make sure the game logic and UI are
 completely reset, then go back to step 1.
+
+<strong>Solution:</strong>  
+![Output](https://i.ibb.co/n1QhsT6/Screenshot-6.png)![Output](https://i.ibb.co/QND7y12/Screenshot-5.png)
