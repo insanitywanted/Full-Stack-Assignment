@@ -4,16 +4,17 @@
 <head>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script type="text/javascript" src="data.js"></script>
+    <script type="text/javascript" src="todos.js"></script>
     <title>Problem 2</title>
 </head>
 
 <body>
     <div class="div">
-        <h1 class="heading">JSON Parser</h1><br><br>
+        <h1 class="heading">JSON Parser</h1>
+        <p class="info">Press "Start Parsing" to find out the ID of all users those have completed minimum and maximum number of tasks.</p>
         <button type="button" class="btn btn-light btn-reset" id="reset" onclick="location.reload()">Reset</button>
-        <button type="button" class="btn btn-primary btn-start" onclick="parse()">Start Parsing</button><br>
-        <h3 class="parsed-data">Parsed Data</h3>
+        <button type="button" class="btn btn-primary btn-start" onclick="parse()">Start Parsing</button><br><br>
+        <h6 class="parsed-data">Parsed Data</h6>
         <p class="display-data" id="display"></p>
     </div>
 </body>
