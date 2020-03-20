@@ -17,6 +17,9 @@ clicking on edit button, it should open a new web page with all the data fields
 already filled for corresponding ID. After you click delete button, a confirmation
 should be taken to remove or cancel the record.
 
+<strong>Solution:</strong>  
+![Output](https://i.ibb.co/1bdwg6M/Screenshot-7.png)
+
 ----------------------------------------------------------------
 
 <strong>Problem: 2</strong>  
