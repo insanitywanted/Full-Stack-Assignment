@@ -13,14 +13,10 @@
         $sql = "INSERT INTO `users` (id, name, age, contact, email) VALUES('$id', '$name', '$age', '$contact', '$email');";
         
         if(mysqli_query($con,$sql))
-        {
             echo "Insertion Sucessful!";
-        }
         else 
             echo "Insertion Unsuccesful!";
     }
     else
-    {
         echo "Hi! Welcome Guest";
-    }
 ?>
