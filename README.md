@@ -18,7 +18,7 @@ already filled for corresponding ID. After you click delete button, a confirmati
 should be taken to remove or cancel the record.
 
 <strong>Solution:</strong>  
-![Output](https://i.ibb.co/1bdwg6M/Screenshot-7.png)
+![Output](https://i.ibb.co/hmJP9FD/Screenshot-8.png)
 
 ----------------------------------------------------------------
 
