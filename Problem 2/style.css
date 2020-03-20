@@ -4,3 +4,6 @@ body {
     display: block;	
 }
 
+.btn-start{
+	margin: 0 0 0 10px;
+}

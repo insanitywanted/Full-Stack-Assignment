@@ -7,3 +7,7 @@ body {
 #value{
     width: 35%;
 }
+
+.btn-start{
+	margin: 0 0 0 10px;
+}
